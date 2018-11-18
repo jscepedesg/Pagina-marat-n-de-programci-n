@@ -1,0 +1,35 @@
+body{
+	color:#fff;
+}
+html {
+overflow: hidden;
+}
+.menu-1{
+	height: 60px;
+	background: #444;
+}
+.slider-1, .slider-2, .slider-3, .slider-4,.slider-5{
+	height: 100vh;
+	text-align: center;
+}
+.slider-1{
+	background: #700961;
+}
+.slider-2{
+	background: #b80d57;
+}
+.slider-3{
+	background: #e03e36;
+}
+.slider-4{
+	background: #ff7c38;
+}
+.slider-5{
+	background: #706262;
+}
+.footer{
+	background: #444;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}
