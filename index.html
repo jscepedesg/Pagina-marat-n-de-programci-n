@@ -5,14 +5,48 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SmoothScroll</title>
+    <title>Maratón De Programación</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap-flex.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="estilos/bootstrap-flex.css">
+    <link rel="stylesheet" href="estilos/style.css">
 
     <!-- Scroll -->
     <script src="js/smooth-scroll.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    	$(document).ready(function() 
+		{
+			var flag = false;
+			var scroll;
+			$(window).scroll(function()
+			{
+
+				scroll=$(window).scrollTop();
+
+				if (scroll>200) 
+				{
+					if (!flag) 
+					{
+						$("#LogoVertical").css({"margin-top":"5px","width":"150px","height":"50px","margin-left":"140px","margin-right":"180px"});
+						flag=true;
+					}
+				}
+					else
+				{
+					if (flag) 
+					{
+						$("#LogoVertical").css({"margin-top":"100px","width":"350px","height":"150px","margin-left":"60px","margin-right":"60px"});
+						flag=false;
+					}
+					
+				}
+
+			});
+
+		});
+
+    </script>
     <script>
       smoothScroll.init({
       selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
@@ -22,39 +56,42 @@
       offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
       callback: function ( anchor, toggle ) {} // Function to run after scrolling
       });
+
     </script>
     
   </head>
   <body>
 
     <!-- MENÚ -->
-    <div class="container-fluid navbar-fixed-top">
-      <div class="row flex-items-xs-between menu-1 flex-items-xs-middle">
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-1" class="btn btn-danger" role="button" aria-pressed="true">Sección-1</a>
-        </div>
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-2" class="btn btn-danger" role="button" aria-pressed="true">Sección-2</a>
-        </div>
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-3" class="btn btn-danger" role="button" aria-pressed="true">Sección-3</a>
-        </div>
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-4" class="btn btn-danger" role="button" aria-pressed="true">Sección-4</a>
-        </div>
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-5" class="btn btn-danger" role="button" aria-pressed="true">Sección-5</a>
-        </div>
-      </div>
-    </div>
+    <header class="container-fluid navbar-fixed-top">
+      <!--class="row flex-items-xs-between menu-1 flex-items-xs-middle"-->
+      <nav >
+      		<ul >
+          		<a data-scroll href="#sec-1" class="btn btn-danger" role="button" aria-pressed="true"><li>Inicio</li></a>
+          		<a data-scroll href="#sec-2" class="btn btn-danger" role="button" aria-pressed="true"><li>Inscripción</li></a>
+          		<a data-scroll href="#sec-3" class="btn btn-danger" role="button" aria-pressed="true"><li>Consulta y actualización</li></a>
+        	</ul>
+        		<img id= 'LogoVertical' src="imagenes/LogoVertical.png">
+        	<ul >
+          		<a data-scroll href="#sec-4" class="btn btn-danger" role="button" aria-pressed="true"><li>Resultados</li></a>
+          		<a data-scroll href="#sec-5" class="btn btn-danger" role="button" aria-pressed="true"><li>Presentación resultados</li></a>
+        	</ul>
+      </nav>
+    </header>
     <!-- FIN MENU -->
     
     <!-- SECCIÓN 1 -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="prin-sec1">
       <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
         <div class="row">
-          <div class="col-xs-12"><h1>Bienvenidos a mi sitio web</h1></div>
-          <div class="col-xs-12"><h3>Sección 1</h3></div>
+         	<style type="text/css">
+         	  	#prin-sec1
+         	  	{
+         	  		background-image: url(imagenes/background-inicio.png);
+         	  	}
+         	</style>
+          <div class="col-xs-12" id="text-maraton"><h1>Maratón De Progamación</h1></div>
+          <div class="col-xs-12" id="text-universidad"><br><h3>Univesidad Piloto De Colombia</h3></div>
         </div>
       </div>
     </div>
