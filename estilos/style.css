@@ -223,3 +223,17 @@ input
 {
 	font-size: 30px;
 }
+#boton-enviar-sec-5
+{
+	margin: auto;
+	width: 20%;
+	background: #31384A;
+	color: #fff;
+	padding: 20px; 
+	border-radius: 5px;
+}
+#boton-enviar-sec-5:hover
+{
+	cursor: pointer;
+	border-radius: 20px;
+}
