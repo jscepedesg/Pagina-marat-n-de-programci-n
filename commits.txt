@@ -1,0 +1,29 @@
+commit d42db9e0680bdcda22f97b0e6b9bd01d172a5a3a
+Author: Sebastian <jahirsebastian@hotmail.com>
+Date:   Sun Nov 18 16:35:15 2018 -0500
+
+    Pagina principal y animacion menu listo
+
+commit acb28c6cda7e66de635c169c4395ec42a45977bf
+Author: Sebastian <jahirsebastian@hotmail.com>
+Date:   Sun Nov 18 00:02:47 2018 -0500
+
+    Plantilla de inicio
+
+commit 1bdc3ea7848aaa9b6798f06a604e0c92f7ebb684
+Author: Sebastian <jahirsebastian@hotmail.com>
+Date:   Sat Nov 17 18:36:12 2018 -0500
+
+    Centre el titulo y agrege testo
+
+commit b065d814fe69c8e5d2c61105894144629b3c0b26
+Author: Sebastian <jahirsebastian@hotmail.com>
+Date:   Sat Nov 17 17:38:51 2018 -0500
+
+    Argre un titulo a la pagian
+
+commit 13c0c200257fc4bdc2bd9b6102ed627ccc86f702
+Author: Sebastian <jahirsebastian@hotmail.com>
+Date:   Sat Nov 17 17:35:09 2018 -0500
+
+    Iniciamos

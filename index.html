@@ -29,6 +29,7 @@
 					if (!flag) 
 					{
 						$("#LogoVertical").css({"margin-top":"5px","width":"150px","height":"50px","margin-left":"140px","margin-right":"180px"});
+						$("#menu-m").css({"background-color":"#222222"});
 						flag=true;
 					}
 				}
@@ -37,6 +38,7 @@
 					if (flag) 
 					{
 						$("#LogoVertical").css({"margin-top":"100px","width":"350px","height":"150px","margin-left":"60px","margin-right":"60px"});
+						$("#menu-m").css({"background-color":"transparent"});
 						flag=false;
 					}
 					
@@ -63,7 +65,7 @@
   <body>
 
     <!-- MENÚ -->
-    <header class="container-fluid navbar-fixed-top">
+    <header class="container-fluid navbar-fixed-top" id="menu-m">
       <!--class="row flex-items-xs-between menu-1 flex-items-xs-middle"-->
       <nav >
       		<ul >
@@ -98,11 +100,129 @@
     <!-- FIN SECCIÓN -->
 
     <!-- SECCIÓN 2 -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="prin-sec2">
       <div class="row flex-items-xs-center slider-2 flex-items-xs-middle" id="sec-2" >
         <div class="row">
-          <div class="col-xs-12"><h1>Desarrollado con Bootstrap 4 beta</h1></div>
-          <div class="col-xs-12"><h3>Sección 2</h3></div>
+        <style type="text/css">
+         	  	#prin-sec2
+         	  	{
+         	  		background-image: url(imagenes/background-ins.jpg);
+         	  	}
+         	</style>
+          
+          	<form action="">
+
+          		<div id="nombre_equipo_caja">
+          			<h2 id="nombre_equipo_h">Nombre de equipo</h2>
+          			<input type="text" name="nombre_equipo" placeholder="Nombre del equipo" id="camp-equi">
+          		</div>
+          		<br>
+          		<div id="Profesor_info">
+          			<h3>Profesor</h3>
+          			<input type="text" name="codigo_p" placeholder="Codigo">
+          			<input type="text" name="nombre_p" placeholder="Nombre">
+          			<input type="text" name="apellido_p" placeholder="Apellido">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Semestre</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+          			<input type="text" name="Correo" placeholder="Correo">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Categoria</option>
+						<option value="">A</option>
+						<option value="">B</option>
+					</select>
+          		</div>
+          		<div id="estudiante-1">
+          			<h3>Estudiante 1</h3>
+          			<input type="text" name="codigo_e1" placeholder="Codigo">
+          			<input type="text" name="nombre_e1" placeholder="Nombre">
+          			<input type="text" name="apellido_e1" placeholder="Apellido">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Semestre</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+          			<input type="text" name="Correo_e1" placeholder="Correo">
+          			<select name="ad_e1" onchange="crearlink(this.form)">
+						<option selected> Categoria</option>
+						<option value="">A</option>
+						<option value="">B</option>
+					</select>
+          		</div>
+
+          		<div id="estudiante-2">
+          			<h3>Estudiante 2</h3>
+          			<input type="text" name="codigo_e2" placeholder="Codigo">
+          			<input type="text" name="nombre_e2" placeholder="Nombre">
+          			<input type="text" name="apellidoe2" placeholder="Apellido">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Semestre</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+          			<input type="text" name="Correo_e2" placeholder="Correo">
+          			<select name="ad_e2" onchange="crearlink(this.form)">
+						<option selected> Categoria</option>
+						<option value="">A</option>
+						<option value="">B</option>
+					</select>
+          		</div>
+
+          		<div id="estudiante-3">
+          			<h3>Estudiante 3</h3>
+          			<input type="text" name="codigo_e3" placeholder="Codigo" id="es-1_3">
+          			<input type="text" name="nombre_e3" placeholder="Nombre" id="es-2_3">
+          			<input type="text" name="apellido_e3" placeholder="Apellido" id="es-1.3">
+          			<select name="ad" onchange="crearlink(this.form)" id="es-3_3">
+						<option selected> Semestre</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+          			<input type="text" name="Correo_e3" placeholder="Correo" id="es-4_3">
+          			<select name="ad_e3" onchange="crearlink(this.form)" id="es-5_3">
+						<option selected> Categoria</option>
+						<option value="">A</option>
+						<option value="">B</option>
+					</select>
+          		</div>
+          		
+          		<input type="button" name="enviar" value="Enviar" id="boton-enviar">
+
+          	</form>
         </div>
       </div>
     </div>
