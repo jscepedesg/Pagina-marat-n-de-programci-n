@@ -232,8 +232,121 @@
     <div class="container-fluid">
       <div class="row flex-items-xs-center slider-3 flex-items-xs-middle" id="sec-3" >
         <div class="row">
-          <div class="col-xs-12"><h1>Además de Flexbox</h1></div>
-          <div class="col-xs-12"><h3>Sección 3</h3></div>
+          	<form action="">
+
+          		<div id="nombre_equipo_caja">
+          			<h1 id="text_actualizacion">Actualización y consulta</h1>
+          			<h2 id="nombre_equipo_h">Nombre de equipo</h2>
+          			<input type="text" name="nombre_equipo" placeholder="Nombre del equipo" id="camp-equi" required>
+          		</div>
+          		<br>
+          		<div id="Profesor_info">
+          			<h3>Profesor</h3>
+          			<input type="text" name="codigo_p" placeholder="Codigo">
+          			<input type="text" name="nombre_p" placeholder="Nombre">
+          			<input type="text" name="apellido_p" placeholder="Apellido">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Semestre</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+          			<input type="text" name="Correo" placeholder="Correo">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Categoria</option>
+						<option value="">A</option>
+						<option value="">B</option>
+					</select>
+          		</div>
+          		<div id="estudiante-1">
+          			<h3>Estudiante 1</h3>
+          			<input type="text" name="codigo_e1" placeholder="Codigo">
+          			<input type="text" name="nombre_e1" placeholder="Nombre">
+          			<input type="text" name="apellido_e1" placeholder="Apellido">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Semestre</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+          			<input type="text" name="Correo_e1" placeholder="Correo">
+          			<select name="ad_e1" onchange="crearlink(this.form)">
+						<option selected> Categoria</option>
+						<option value="">A</option>
+						<option value="">B</option>
+					</select>
+          		</div>
+
+          		<div id="estudiante-2">
+          			<h3>Estudiante 2</h3>
+          			<input type="text" name="codigo_e2" placeholder="Codigo">
+          			<input type="text" name="nombre_e2" placeholder="Nombre">
+          			<input type="text" name="apellidoe2" placeholder="Apellido">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Semestre</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+          			<input type="text" name="Correo_e2" placeholder="Correo">
+          			<select name="ad_e2" onchange="crearlink(this.form)">
+						<option selected> Categoria</option>
+						<option value="">A</option>
+						<option value="">B</option>
+					</select>
+          		</div>
+
+          		<div id="estudiante-3">
+          			<h3>Estudiante 3</h3>
+          			<input type="text" name="codigo_e3" placeholder="Codigo" id="es-1_3">
+          			<input type="text" name="nombre_e3" placeholder="Nombre" id="es-2_3">
+          			<input type="text" name="apellido_e3" placeholder="Apellido" id="es-1.3">
+          			<select name="ad" onchange="crearlink(this.form)" id="es-3_3">
+						<option selected> Semestre</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+          			<input type="text" name="Correo_e3" placeholder="Correo" id="es-4_3">
+          			<select name="ad_e3" onchange="crearlink(this.form)" id="es-5_3">
+						<option selected> Categoria</option>
+						<option value="">A</option>
+						<option value="">B</option>
+					</select>
+          		</div>
+          		
+          		<input type="button" name="enviar" value="Enviar" id="boton-enviar">
+          		<input type="button" name="Consultar" value="Consultar" id="boton-enviar">
+
+          	</form>
         </div>
       </div>
     </div>
@@ -243,8 +356,28 @@
     <div class="container-fluid">
       <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4" >
         <div class="row">
-          <div class="col-xs-12"><h1>Suscríbete en Youtube (bluuweb)</h1></div>
-          <div class="col-xs-12"><h3>Sección 4</h3></div>
+        	<form action="">
+
+          		<div id="nombre_equipo_caja">
+          			<h1 id="text_actualizacion">Actualización Resultados Maraton</h1>
+          			<h2 id="nombre_equipo_h">Nombre de equipo</h2>
+          			<input type="text" name="nombre_equipo" placeholder="Nombre del equipo" id="camp-equi-sec-4" required>
+          		</div>
+          		<br>
+          		<div id="equipo_info">
+          			<h3>Equipo</h3>
+          			<input type="text" name="codigo_p" placeholder="Ejercicios resueltos">
+          			<input type="text" name="nombre_p" placeholder="Posición en el scoreboard">
+          			<select name="ad" onchange="crearlink(this.form)">
+						<option selected> Estado de la participación</option>
+						<option value="">Vigente</option>
+						<option value="">Descalficado</option>
+						<option value="">Razón de la decisión</option>
+					</select>
+          		</div>
+
+          		<input type="button" name="enviar" value="Enviar" id="boton-enviar-sec-4">
+          	</form>
         </div>
       </div>
     </div>

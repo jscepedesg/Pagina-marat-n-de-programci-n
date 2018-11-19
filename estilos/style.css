@@ -185,3 +185,41 @@ input
 	margin-bottom: -30px;
 	margin-top: 5px;
 }
+
+#text_actualizacion
+{
+	margin-top: 5px;
+	margin-bottom: -30px;
+}
+#equipo_info
+{
+	margin: auto;
+	width: 320px;
+	height: 230px;
+	background: rgb(34,178,214,0.4);
+	border-radius: 30px;
+}
+#boton-enviar-sec-4
+{
+	margin-top: 10px;
+	width: 20%;
+	background: #31384A;
+	color: #fff;
+	padding: 20px; 
+	border-radius: 5px;
+}
+#boton-enviar-sec-4:hover
+{
+	cursor: pointer;
+	border-radius: 20px;
+}
+#camp-equi-sec-4
+{
+	width: 35%;
+	margin-bottom: -30px;
+	margin-top: 5px;
+}
+#text_actualizacion
+{
+	font-size: 30px;
+}
