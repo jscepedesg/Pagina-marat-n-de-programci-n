@@ -1,3 +1,21 @@
+commit 5653cc53021d775e2e918ceae602fab0bf001202
+Author: Sebastian <jahirsebastian@hotmail.com>
+Date:   Sun Nov 18 20:46:41 2018 -0500
+
+    Terminado frontend y personalizacion de la pagina
+
+commit eef4418057acd5e4b7da60c68c12d9f75eee3917
+Author: Sebastian <jahirsebastian@hotmail.com>
+Date:   Sun Nov 18 20:37:41 2018 -0500
+
+    Terminado consulta y actualizacion con resultados
+
+commit 20da01d7cc414c10aa7ea95aa7cab0f1676b9a41
+Author: Sebastian <jahirsebastian@hotmail.com>
+Date:   Sun Nov 18 19:56:33 2018 -0500
+
+    Terminada la inscripcion
+
 commit d42db9e0680bdcda22f97b0e6b9bd01d172a5a3a
 Author: Sebastian <jahirsebastian@hotmail.com>
 Date:   Sun Nov 18 16:35:15 2018 -0500
